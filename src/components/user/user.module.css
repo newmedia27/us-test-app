@@ -1,0 +1,53 @@
+.content {
+    min-height: 100vh;
+    padding-top: 40px;
+}
+.list {
+    padding: 24px 48px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.text_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.text_block > span {
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+}
+.text_block > span:first-child {
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.text_block > span:last-child {
+    opacity: 0.4;
+}
+
+.image {
+    margin-right: 40px;
+}
+.main {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.draw {
+    color: #000000;
+    display: none;
+}
+.draw_active {
+    display: flex;
+}
+.draw > span {
+    opacity: 0.4;
+}

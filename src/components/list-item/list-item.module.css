@@ -1,0 +1,16 @@
+.row {
+    align-items: center;
+    border-bottom: 1px solid #e1e4ea;
+    padding: 20px 0;
+}
+.image {
+    margin-right: 40px;
+}
+
+.button {
+    margin-left: auto;
+    background-color: none;
+}
+.button_block {
+    display: flex;
+}

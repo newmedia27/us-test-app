@@ -1,0 +1,8 @@
+.image {
+    min-width: 1rem;
+    min-height: 1rem;
+    object-fit: cover;
+}
+.circle {
+    border-radius: 50%;
+}

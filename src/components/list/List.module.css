@@ -1,0 +1,8 @@
+.content {
+    min-height: calc(100vh - 88px);
+}
+
+.list {
+    padding: 0 25px;
+    background-color: #fff;
+}

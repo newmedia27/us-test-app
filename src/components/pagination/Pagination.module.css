@@ -1,0 +1,25 @@
+.button {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 26px;
+}
+
+.button:hover {
+  border: 1px solid black;
+  transition: 0.22s ease-in-out;
+  cursor: pointer;
+}
+
+.active {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
